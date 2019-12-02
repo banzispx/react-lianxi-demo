@@ -39,6 +39,7 @@ function render(domObj) {
 
 // 设置属性
 function setAttr(node, key, value) {
+  // 判断属性键值的类型 进而进行不同的操作
   switch (key) {
     case "value":
       // node是一个input或者textarea就直接设置其value即可
